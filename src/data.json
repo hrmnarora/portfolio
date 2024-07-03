@@ -1,0 +1,37 @@
+{
+  "about": {
+    "name": "Aashish",
+    "title": "Architectural Visualization Enthusiast",
+    "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. I was deeply fascinated in the concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity.",
+    "image": "https://example.com/profile.jpg"
+  },
+  "experience": [
+    {
+      "company": "Atomic Finance",
+      "position": "Bitcoin protocol engineer",
+      "duration": "Present",
+      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity."
+    },
+    {
+      "company": "Atomic Finance",
+      "position": "Bitcoin protocol engineer",
+      "duration": "Present",
+      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity."
+    }
+  ],
+  "courses": [
+    {
+      "title": "Full Stack Course",
+      "poster": "https://example.com/cert1"
+    },
+    {
+      "title": "Master React js",
+      "poster": "https://example.com/cert2"
+    }
+  ],
+  "contact": {
+    "email": "aashish@example.com",
+    "phone": "+1 234 567 890",
+    "address": "123 Main St, Anytown, USA"
+  }
+}
