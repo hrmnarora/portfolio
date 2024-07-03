@@ -51,12 +51,15 @@ function App() {
           {/* header  */}
           <header className="mb-8 mt-24 flex h-fit">
             <div className="lg:w-2/3 w-full">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-4 text-zinc-950 dark:text-white">
-                Hi, I'm {userData.about.name}{" "}
-                <span role="img" aria-label="wave">
-                  👋
-                </span>
+              <div className="flex gap-2 ">
+
+              <h1 className="text-4xl block lg:text-6xl font-bold mb-4 text-zinc-950 dark:text-white">
+              Hi, I'm {userData.about.name}{" "}👋
               </h1>
+                
+
+                              
+              </div>
               <p className="text-xl lg:text-2xl text-zinc-700 dark:text-zinc-300">
                 {userData.about.title}
               </p>
