@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div
-      className={`App ${
+      className={`App transition-colors ${
         theme === "dark" ? "dark" : ""
       } bg-white dark:bg-zinc-950 min-h-screen`}
     >
