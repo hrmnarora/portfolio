@@ -108,7 +108,6 @@ function App() {
             </div>
           </li>
 
-          <div className="h-8 w-[1px] bg-white"></div>
         </ul>
       </nav>
 
