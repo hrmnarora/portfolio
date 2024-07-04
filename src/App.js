@@ -6,7 +6,7 @@ import Courses from "./components/Courses";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import ThemeToggle from "./components/ThemeToggle";
-import { Link, Element, animateScroll as scroll } from "react-scroll";
+import { Link, Element} from "react-scroll";
 
 function App() {
   const [theme, setTheme] = useState("light");
