@@ -6,7 +6,8 @@ import Courses from "./components/Courses";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import ThemeToggle from "./components/ThemeToggle";
-import { Link, Element} from "react-scroll";
+import { Link, Element } from "react-scroll";
+// import { CgProfile } from "react-icons/cg";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -44,67 +45,71 @@ function App() {
     >
       <ThemeToggle theme={theme} handleThemeSwitch={handleThemeSwitch} />
 
-      <nav className="fixed  bottom-5 w-fit  bg-zinc-100 dark:bg-zinc-950 -translate-x-[50%] mx-[50%] rounded-full border-[2px] border-zinc-200 dark:text-zinc-100  dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]">
+      <nav className="fixed z-50 bottom-5 w-fit  bg-zinc-100 dark:bg-zinc-950 -translate-x-[50%] mx-[50%] rounded-full border-[2px] border-zinc-200 dark:text-zinc-100  dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]">
 
-      <ul className="flex gap-0 hover:gap-2 transition-all duration-150 justify-center overflow-hidden">
-  <li className="">
-    <div className="hover:bg-zinc-900 rounded-s-full transition-colors p-4 px-5 cursor-pointer ">
-      <Link
-        className=""
-        activeClass="active"
-        to="about"
-        spy={true}
-        smooth={true}
-        duration={500}
-      >
-        About
-      </Link>
-    </div>
-  </li>
-  <li className="overflow-hidden">
-    <div className="hover:bg-zinc-900 transition-colors p-4 px-5 cursor-pointer ">
-      <Link
-        className=""
-        activeClass="active"
-        to="experience"
-        spy={true}
-        smooth={true}
-        duration={500}
-      >
-        Experience
-      </Link>
-    </div>
-  </li>
-  <li className="overflow-hidden">
-    <div className="hover:bg-zinc-900 transition-colors p-4 px-5 cursor-pointer">
-      <Link
-        className=""
-        activeClass="active"
-        to="courses"
-        spy={true}
-        smooth={true}
-        duration={500}
-      >
-        Courses
-      </Link>
-    </div>
-  </li>
-  <li className="overflow-hidden">
-    <div className="hover:bg-zinc-900 transition-colors p-4 px-5 cursor-pointer rounded-e-full">
-      <Link
-        className="cursor-pointer "
-        activeClass="active"
-        to="contact"
-        spy={true}
-        smooth={true}
-        duration={500}
-      >
-        Contact
-      </Link>
-    </div>
-  </li>
-</ul>
+        <ul className="flex  transition-all duration-150 justify-center overflow-hidden">
+          <li className="">
+            <div className="dark:hover:bg-zinc-900 hover:bg-zinc-200 hover:px-6 transition-all rounded-s-full p-4 cursor-pointer ">
+              <Link
+                className=" flex items-center justify-center"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                About
+              </Link>
+            </div>
+          </li>
 
+          <li className="overflow-hidden">
+            <div className="dark:hover:bg-zinc-900 hover:bg-zinc-200 hover:px-6  transition-all p-4 cursor-pointer ">
+              <Link
+                className=""
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Experiance
+              </Link>
+            </div>
+          </li>
+
+          <li className="overflow-hidden">
+            <div className="dark:hover:bg-zinc-900 hover:bg-zinc-200 transition-all hover:px-6 p-4 px-5 cursor-pointer">
+              <Link
+                className=""
+                activeClass="active"
+                to="courses"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Courses
+              </Link>
+            </div>
+          </li>
+
+          <li className="overflow-hidden">
+            <div className="dark:hover:bg-zinc-900 hover:bg-zinc-200 hover:px-6 transition-all p-4 px-5 cursor-pointer rounded-e-full">
+              <Link
+                className="cursor-pointer "
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </div>
+          </li>
+
+          <div className="h-8 w-[1px] bg-white"></div>
+        </ul>
       </nav>
 
       {userData && (
