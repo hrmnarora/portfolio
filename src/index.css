@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-/* body{
-  font-family: "Outfit", sans-serif;
-} */
+
+.dark-gradient {
+  background: linear-gradient(to bottom, #18181b, #27272a);
+}

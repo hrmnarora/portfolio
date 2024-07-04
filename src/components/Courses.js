@@ -1,25 +1,31 @@
 import React from "react";
-import data from "../data.json";
+import { FaArrowUp } from "react-icons/fa6";
 
-const Courses = () => {
-  const coursesList = data.courses;
+const Courses = ({userData}) => {
+
 
   return (
-    <section className="bg-white dark:bg-black text-black dark:text-white py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">My Courses</h2>
-        <div className="grid gap-6">
-          {coursesList.map((course, index) => (
-            <div key={index} className="border border-gray-800 dark:border-white p-4 rounded-md shadow-md">
-              <h3 className="text-xl font-semibold mb-2">{course.title}</h3>
-              <p className="text-lg">{course.provider}</p>
-              <p className="text-sm text-gray-400">{course.duration}</p>
-              <a href={course.certificate} target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-200 hover:underline">View Certificate</a>
+    <section>
+            <h2 className="text-2xl animate-blurFade font-bold text-zinc-950 dark:text-white">
+              Courses
+            </h2>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3">
+              {userData.courses.map((course, index) => (
+                <div className="dark:bg-zinc-900 animate-blurFade bg-zinc-100 shadow-lg dark:shadow-black w-full h-fit p-4 rounded-lg mt-5">
+                  <div className="w-full h-fit px-2 pb-4 flex items-center justify-between">
+                    <h1 className="text-zinc-800 text-2xl dark:text-white">
+                      {" "}
+                      {course.title}
+                    </h1>
+                    <div className="group min-w-12 ml-5 flex items-center justify-center min-h-12 dark:bg-zinc-800 bg-zinc-200 rounded-full hover:dark:bg-zinc-950 transition-colors cursor-pointer">
+                      <FaArrowUp className=" dark:text-white text-xl rotate-45 group-hover:rotate-2 transition-transform" />
+                    </div>
+                  </div>
+                  <div className="w-full h-[200px] dark:bg-zinc-800 bg-zinc-200 rounded-lg"></div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
+          </section>
   );
 };
 

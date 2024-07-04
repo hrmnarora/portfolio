@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}"
@@ -7,28 +7,22 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden"
+        blurFade: {
+          '0%': {
+            filter: 'blur(10px)',
+            opacity: '0',
+            transform: 'translateY(25px)', // Adjust the translation value as needed
           },
-          "100%": {
-            width: "100%",
-            visibility: "visible"
-          }
+          '100%': {
+            filter: 'blur(0)',
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
         },
-        blink: {
-          "50%": {
-            borderColor: "transparent"
-          },
-          "100%": {
-            borderColor: "white"
-          }
-        }
       },
       animation: {
-        typing: "typing 2s steps(20), blink .7s infinite"
-      }
+        blurFade: 'blurFade 1s ease-in-out',
+      },
     },
   },
   plugins: [],
