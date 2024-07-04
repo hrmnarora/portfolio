@@ -2,21 +2,24 @@
   "about": {
     "name": "Aashish",
     "title": "Software Engineer turned into Enterpreneur, i have building things and helping people very, active on twitter",
-    "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. I was deeply fascinated in the concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity.",
-    "image": "https://example.com/profile.jpg"
+    "description": "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, I pursued a double degree in computer science and business, interned at big tech companies in Silicon Valley, and competed in over 21 hackathons for fun. I also had the pleasure of being a part of the first ever in-person cohort of buildspace called buildspace sf1.",
+    "image": "https://portfolio-magicui.vercel.app/me.png"
   },
   "experience": [
     {
       "company": "Atomic Finance",
       "position": "Bitcoin protocol engineer",
       "duration": "Present",
-      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity."
+      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity.",
+      "image": "https://portfolio-magicui.vercel.app/atomic.png"
     },
     {
       "company": "Atomic Finance",
       "position": "Bitcoin protocol engineer",
       "duration": "Present",
-      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity."
+      "description": "In June of 2022, I graduated from architecture school at the University of Toronto. There, I became obsessed with architectural visualization. Toronto. There, concepts of modularity and adaptability, how our built environment could organically evolve in conjunction with humanity.",
+      "image": "https://portfolio-magicui.vercel.app/atomic.png"
+
     }
   ],
   "courses": [
