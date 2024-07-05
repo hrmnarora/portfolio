@@ -25,19 +25,31 @@
   "courses": [
     {
       "title": "Full Stack Course",
-      "poster": "https://example.com/cert1"
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2TioHXNmXnph7XtdtoUTcNjdm9cKo0AnNw&s",
+      "description": "This course covers full stack development using modern technologies. You'll learn about frontend frameworks, backend development, databases, and deployment strategies.",
+      "duration": "6 months",
+      "topics": [
+        "HTML, CSS, and JavaScript",
+        "React and Redux",
+        "Node.js and Express",
+        "MongoDB and SQL",
+        "RESTful APIs and GraphQL",
+        "CI/CD and Deployment"
+      ]
     },
     {
       "title": "Master React js",
-      "poster": "https://example.com/cert2"
-    },
-    {
-      "title": "Master React js",
-      "poster": "https://example.com/cert2"
-    },
-    {
-      "title": "Master React js",
-      "poster": "https://example.com/cert2"
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2TioHXNmXnph7XtdtoUTcNjdm9cKo0AnNw&s",
+      "description": "This course provides an in-depth look into React.js and its ecosystem. You'll become proficient in building complex and scalable applications using React.",
+      "duration": "3 months",
+      "topics": [
+        "React Basics",
+        "State and Props",
+        "Hooks",
+        "Context API",
+        "React Router",
+        "Testing with Jest and React Testing Library"
+      ]
     }
   ],
   "contact": {
